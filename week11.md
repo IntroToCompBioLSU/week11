@@ -16,7 +16,22 @@
   - WAIT! There's a better way. If we use OOP, we could have created a player object that would automatically store all the relevant information on a player. As soon as we had their name, we could pull up any relevant statistic. We could even come up with new functions to summarize the statistics for each player in any way we wanted.
 
 
+## Course Registrar Example of OOP
+
+- We'll walk through a simpler example of objects in Python to see how they can be used interactively
+
+
 ## Demography Simulation
 
-- We'll start this week by continuing to work through our example of demography simulation on a landscape.
-- This will allow us to see a moderately sophisticated program built with OOP from the ground up.
+- I've got a working version of our demography simulation, although it only incorporates dispersal of a fixed number of individuals, with no reproduction.
+- I was lazy and haven't yet commented the dispersal function that's associated with individuals.
+- I want you to look over the dispersal function and add comments to indicate the logic that's being used.
+- I then want you to look through the code at the bottom that actually runs the simulation and add comments.
+
+
+## Weekly Assignment (Due Tuesday, Nov. 6th)
+
+- Send me a commented version of the demography simulation
+- I want you to begin thinking about the logic of your final project. What kinds of classes will you need? What properties and methods will they have? How will they interact?
+  - A key skill with OOP is abstraction. How do you take the real world situation that you want to explore and turn it into Python?
+  - Send me a few paragraphs that describe how you're thinking about structuring your code. 
