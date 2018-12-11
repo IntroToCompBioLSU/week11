@@ -45,6 +45,7 @@ class landscape: #creating landscape class
         for _ in range(self.startSize): #for-loop to loop through list 
             self.sections[0][0].individuals.append(ind(myLandscape=self,myCell=self.sections[0][0]))
             #adding the individuals to cells making up the entire landscape
+            # DB: Adds individuals specifically to the upper-left cell
             
 
     def setup(self,nRows,nCols): #setting up the landscape, creating rows and columns (cells)
@@ -56,6 +57,7 @@ class landscape: #creating landscape class
                 row.append(cell(("%d_%d") % (rowNum,colNum))) #the columns are added
             land.append(row) 
         return land #exit function and hand back value of landscape which is list of list (rows, columns)
+        			# DB: Good!
 
     def printLandscape(self): #printLandscape method to print cell ID numbers
         """Print all id numbers of cells in landscape"""
@@ -206,3 +208,6 @@ for g in range(gens):
 
     simLandscape.printLandscape() 
 #display the entire landscape to the screen
+
+# DB: Overall, very good! A few more comments here at the bottom would help a bit more, but
+#     a nice density of comments above.
