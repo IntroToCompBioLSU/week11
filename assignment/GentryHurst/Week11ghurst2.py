@@ -207,3 +207,6 @@ for g in range(gens):
     print("Generation %d:" % (g+1)); print()
 #print the number of individuals in the landscape
     simLandscape.printLandscape()
+
+# DB: These are helpful comments distributed throughout the code. Some of the more complicated lines still lack comments,
+#     but these are also often difficult to understand.
