@@ -207,3 +207,6 @@ for g in range(gens):
     print("Generation %d:" % (g+1)); print()
 
     simLandscape.printLandscape()
+
+# DB: These comments are a good start, but a bit sparse. Part of this exercise is about working through the logic of the
+#     code so it would be helpful to see more.
